@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Pages.Adidas3"
+             NavigationPage.HasNavigationBar="False"
+ BackgroundImageSource="fundo"
+             Title="Adidas3">
+    <VerticalStackLayout Spacing="10"
+                  Margin="10">
+
+
+        <Grid Padding="0,-70,25,0" 
+    ColumnSpacing="60"  Margin="10"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="170" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="350" />
+                <RowDefinition Height="15" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="80" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="12" />
+                <ColumnDefinition Width="350" />
+            </Grid.ColumnDefinitions>
+            <Button 
+                BackgroundColor="#5A2D82"
+                   x:Name="voltar"
+                   Clicked="voltar_Clicked"
+                   Grid.Row="0"
+                   Rotation="180"
+                   Margin="10,0,0,0"
+                   HeightRequest="40"  
+                   WidthRequest="70"
+                   CornerRadius = "70"
+                   ImageSource="seta.svg"
+                   />
+
+
+            <Image HeightRequest="250" WidthRequest="350" Source="logohome" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  Margin="0,0,70,0" />
+            <Button 
+              Grid.Row="2"
+              Grid.Column="0"
+              Grid.ColumnSpan="2"
+              HeightRequest="185"  
+              WidthRequest="380"
+              Margin="0,0,70,0"
+              CornerRadius = "20"
+              ImageSource="adidas3.svg"
+              BackgroundColor="#F5F5F8"/>
+
+
+            <Label 
+             Text="Nike Air Max 270"
+             Padding="1,0,0,0"
+             FontSize="30"
+             TextColor="#000000"
+             Grid.Row="3"
+             Grid.Column="0"
+             Grid.ColumnSpan="2"
+             Margin="0,0,70,0"
+             HeightRequest="90"  
+             WidthRequest="350"/>
+            <Label 
+            
+             Text="O Nike Air Max 270 é a escolha perfeita para quem busca um tênis que combina estilo urbano e conforto excepcional. Inspirado em dois ícones da linha Air Max, o 180 e o 93, o Air Max 270 apresenta a maior unidade Air na entressola, oferecendo uma experiência de amortecimento incrível."
+              Padding="1,0,0,0"
+              FontSize="15"
+              TextColor="#000000"
+              Grid.Row="4"
+              Grid.Column="0"
+              Grid.ColumnSpan="2"
+              Margin="0,10,70,0"
+              HeightRequest="180"  
+              WidthRequest="350"/>
+            <Label 
+            Text="★★★★★"
+            Padding="20,0,0,0"
+            FontSize="55"
+            TextColor="#FCE61E"
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            Margin="0,0,40,0"
+            HeightRequest="90"  
+            WidthRequest="350"/>
+
+            <Button 
+              Grid.Row="6"
+              Grid.Column="0"
+              Grid.ColumnSpan="2"
+              Text="Comprar"
+              x:Name="compar"
+              Clicked="compar_Clicked"
+              FontSize="25"
+              HeightRequest="60"  
+              WidthRequest="300"
+              Margin="0,0,70,0"
+              CornerRadius = "20"
+              BackgroundColor="#5A2D82"/>
+
+
+
+        </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>

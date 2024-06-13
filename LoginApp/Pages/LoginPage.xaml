@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="LoginApp.Pages.LoginPage"
+             Title="LoginPage"
+              BackgroundImageSource="fundo2.svg"
+             NavigationPage.HasNavigationBar="False">
+
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#5A2D82"/>
+    </ContentPage.Behaviors>
+
+    <VerticalStackLayout Margin="15"
+                         Padding="15"
+                         Spacing="5">
+        <Image Margin="0,130,0,0" HeightRequest="200" WidthRequest="200" Source="perfilogin.svg"/>
+
+        <Label
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontSize="Title"/>
+
+        <Label x:Name="lblEmail"
+               Text="Email"
+               TextColor="White"
+               FontSize="Subtitle"/>
+
+        <Frame BackgroundColor="#F6F6F6" Padding="2">
+        <Entry x:Name="txtEmail"
+               Placeholder="Digite seu Email"
+               Keyboard="Email"/>
+        </Frame>
+
+        <Label x:Name="lblSenha"
+               FontSize="Subtitle"
+               Text="Senha"
+               TextColor="White"/>
+
+        <Frame BackgroundColor="#F6F6F6" Padding="2">
+        <Entry Placeholder="Digite sua Senha"
+               TextColor="Black"
+               x:Name="txtSenha"
+               IsPassword="True"
+               ClearButtonVisibility="WhileEditing"/>
+        </Frame>
+
+        <Button Text="Entrar"
+                Margin="0,50,0,10"
+                TextColor="White"
+                WidthRequest="250"
+                x:Name="btnEntrar"
+                Clicked="btnEntrar_Clicked"
+                BackgroundColor="#653E87"/>
+
+        <Button Text="Registrar"
+                TextColor="White"
+                WidthRequest="250"
+                x:Name="btnRegistrar"
+                Clicked="btnRegistrar_Clicked"
+                BackgroundColor="#653E87"/>
+
+    </VerticalStackLayout>
+</ContentPage>

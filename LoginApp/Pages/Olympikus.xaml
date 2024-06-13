@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Pages.Olympikus"
+             BackgroundImageSource="fundo"
+            NavigationPage.HasNavigationBar="False"
+             Title="Olympikus">
+    <ScrollView>
+        <VerticalStackLayout Spacing="10"
+                         Margin="10"> 
+
+        <Image HeightRequest="250" WidthRequest="350" Source="logohome"/>
+
+        <Frame CornerRadius="10"  
+       BorderColor="White" 
+       Padding="0">
+            <StackLayout HorizontalOptions="Center" Margin="10,0,0,0" BackgroundColor="White">
+                <Image Source="lupa.svg" WidthRequest="30" Margin="0,25,300,-30"></Image>
+                <Entry Placeholder="" WidthRequest="250"
+        Margin="0,0,0,2"
+        IsPassword="False">
+                </Entry>
+            </StackLayout>
+        </Frame>
+
+        <Button 
+        HeightRequest="185"  
+        WidthRequest="380"
+        x:Name="olympikus1"
+        Clicked="olympikus1_Clicked"
+        CornerRadius = "20"
+        ImageSource="oly1.svg"
+        Margin="5"
+        BackgroundColor="#F5F5F8"/>
+
+        <Button 
+        HeightRequest="185"  
+        WidthRequest="380"
+        x:Name="olympikus2"
+        Clicked="olympikus2_Clicked"
+        CornerRadius = "20"
+        ImageSource="oly2.svg"
+        Margin="5"
+        BackgroundColor="#F5F5F8"/>
+
+        <Button 
+        HeightRequest="185"  
+        WidthRequest="380"
+        x:Name="olympikus3"
+        Clicked="olympikus3_Clicked"
+        CornerRadius = "20"
+        ImageSource="oly3.svg"
+        Margin="5"
+        BackgroundColor="#F5F5F8"/>
+        
+        <Grid Padding="0,50,25,0" 
+       ColumnSpacing="60"  Margin="10"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <Button 
+           ImageSource="icon1"
+           HeightRequest="50"  
+           WidthRequest="50"
+           CornerRadius = "20"
+           x:Name="btnHome"
+           Clicked="btnHome_Clicked"
+           BackgroundColor="#F5F5F8"/>
+
+            <Button 
+           Grid.Column="1"
+           ImageSource="icon2"
+           HeightRequest="50"  
+           WidthRequest="50"
+           CornerRadius = "20"
+           x:Name="btnCompras"
+           Clicked="btnCompras_Clicked"
+           BackgroundColor="#F5F5F8"/>
+
+            <Button
+           Grid.Column="2"
+           ImageSource="icon3"
+           HeightRequest="50" 
+           WidthRequest="50"
+           CornerRadius = "20"
+           x:Name="btnPerfil"
+           Clicked="btnPerfil_Clicked"
+           BackgroundColor="#F5F5F8"/>
+        </Grid>
+    </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>

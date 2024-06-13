@@ -1,0 +1,173 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = loginApp
+build_property.ProjectDir = C:\Users\Professor\Downloads\LoginApp - feito sala\LoginApp\LoginApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Adidas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Adidas.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Adidas.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Adidas.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Adidas1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Adidas1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Adidas1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Adidas1.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Adidas2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Adidas2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Adidas2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Adidas2.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Adidas3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Adidas3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Adidas3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Adidas3.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Compras.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Compras.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Compras.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Compras.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/EditaUsuarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.EditaUsuarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\EditaUsuarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\EditaUsuarioPage.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Mizuno.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Mizuno.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mizuno.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mizuno.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Mizuno1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Mizuno1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mizuno1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mizuno1.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Mizuno2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Mizuno2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mizuno2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mizuno2.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Mizuno3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Mizuno3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Mizuno3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Mizuno3.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Nike.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Nike.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Nike.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Nike.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/nike1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.nike1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\nike1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\nike1.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/nike2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.nike2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\nike2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\nike2.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/nike3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.nike3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\nike3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\nike3.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/Olympikus.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.Olympikus.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Olympikus.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Olympikus.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/olympikus1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.olympikus1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\olympikus1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\olympikus1.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/olympikus2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.olympikus2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\olympikus2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\olympikus2.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/olympikus3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.olympikus3.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\olympikus3.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\olympikus3.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Pages/perfil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Pages.perfil.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\perfil.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\perfil.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Professor/Downloads/LoginApp - feito sala/LoginApp/LoginApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = loginApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

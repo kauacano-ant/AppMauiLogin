@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.Pages.perfil"
+             BackgroundImageSource="fundo2.svg"
+                NavigationPage.HasNavigationBar="False"
+             Title="perfil">
+    <VerticalStackLayout Spacing="10"
+                         Margin="10">
+
+        <Grid Padding="140,250,25,0" 
+ColumnSpacing="60"  Margin="10"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            
+
+            <Frame
+                 CornerRadius="200"
+                 HeightRequest="160"
+                 WidthRequest="160" 
+                BackgroundColor="#F6F6F6"
+                
+              />
+            <ImageButton 
+            x:Name="fotoPerfil"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             Margin="10"
+             CornerRadius="100"
+             HeightRequest="150"
+             WidthRequest="150"
+             Aspect="AspectFill"
+             Source="perfil1.svg"
+            BackgroundColor="#F6F6F6"/>
+            
+        </Grid>
+
+            <Label Text="Cadastrar"
+        TextColor="White"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        FontSize="Title"/>
+
+
+        <Frame BackgroundColor="#F6F6F6">
+            <Label
+                x:Name="txtNome"
+                TextColor="Black"
+                FontSize="20"
+                />
+        </Frame>
+        <Frame BackgroundColor="#F6F6F6">
+            <Label 
+                x:Name="txtEmail"
+                TextColor="Black"
+                FontSize="20"
+                />
+            </Frame>
+        <Frame
+            BackgroundColor="#F6F6F6">
+            <Label
+                x:Name="txtSenha"
+                TextColor="Black"
+                FontSize="20"
+            />
+            </Frame>
+
+
+        <Grid Padding="0,50,25,0" 
+       ColumnSpacing="60"  Margin="10"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <Button 
+           ImageSource="icon1"
+           HeightRequest="50"  
+           WidthRequest="50"
+           CornerRadius = "20"
+           x:Name="btnHome"
+           Clicked="btnHome_Clicked"
+           BackgroundColor="#F5F5F8"/>
+
+            <Button 
+           Grid.Column="1"
+           ImageSource="icon2"
+           HeightRequest="50"  
+           WidthRequest="50"
+           CornerRadius = "20"
+           x:Name="btnCompras"
+           Clicked="btnCompras_Clicked"
+           BackgroundColor="#F5F5F8"/>
+
+            <Button
+           Grid.Column="2"
+           ImageSource="icon3"
+           HeightRequest="50" 
+           WidthRequest="50"
+           CornerRadius = "20"
+           x:Name="btnPerfil"
+           Clicked="btnPerfil_Clicked"
+           BackgroundColor="#F5F5F8"/>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>

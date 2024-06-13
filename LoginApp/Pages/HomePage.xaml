@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="LoginApp.Pages.HomePage"
+             BackgroundImageSource="fundo"
+             
+              NavigationPage.HasNavigationBar="False"
+             Title="HomePage">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#5A2D82"/>
+    </ContentPage.Behaviors>
+    
+    <VerticalStackLayout
+        Spacing="10"
+        Margin="10">
+        <Image HeightRequest="250" WidthRequest="350" Source="logohome"/>
+
+        <Frame CornerRadius="10"  
+       BorderColor="White" 
+       Padding="0">
+            <StackLayout HorizontalOptions="Center" Margin="10,0,0,0" BackgroundColor="White">
+                <Image Source="lupa.svg" WidthRequest="30" Margin="0,25,300,-30"></Image>
+                <Entry Placeholder="" WidthRequest="250"
+                       Margin="0,0,0,2"
+                       IsPassword="False">
+                </Entry>
+            </StackLayout>
+        </Frame>
+
+
+        <Grid Padding="20,50,25,0"
+              ColumnSpacing="35" RowSpacing="98" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Button 
+                HeightRequest="150"  
+                WidthRequest="150"
+                CornerRadius = "20"
+                ImageSource="nike.svg"
+                x:Name="btnNike"
+                Clicked="btnNike_Clicked_1"
+                BackgroundColor="#F5F5F8"/>
+
+            <Button 
+                Grid.Column="1"
+                HeightRequest="150"  
+                WidthRequest="150"
+                 CornerRadius = "20"
+                 ImageSource="adidas.svg"
+                x:Name="btnAdidas"
+                Clicked="btnAdidas_Clicked_1"
+                BackgroundColor="#F5F5F8"/>
+            <Button
+                 Grid.Row="1"
+                 HeightRequest="150" 
+                 WidthRequest="150"
+                 CornerRadius = "20"
+                 ImageSource="mizuno.svg"
+                 x:Name="btnMizuno"
+                 Clicked="btnMizuno_Clicked_1"
+                 BackgroundColor="#F5F5F8"/>
+            <Button
+                 Grid.Row="1"
+                 Grid.Column="2"
+                 HeightRequest="150"  
+                 WidthRequest="150"
+                 CornerRadius = "20"
+                 ImageSource="olympikus.svg"
+                 x:Name="btnOlympikus"
+                 Clicked="btnOlympikus_Clicked_1"
+                 BackgroundColor="#F5F5F8"/>
+        </Grid>
+
+        <Grid Padding="0,50,25,0" 
+       ColumnSpacing="60"  Margin="10" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition Width="80" />
+            </Grid.ColumnDefinitions>
+            <Button 
+                 ImageSource="icon1"
+                 HeightRequest="50"  
+                 WidthRequest="50"
+                 CornerRadius = "20"
+                 x:Name="btnHome"
+                 Clicked="btnHome_Clicked"
+                 BackgroundColor="#F5F5F8"/>
+
+            <Button 
+                 Grid.Column="1"
+                 ImageSource="icon2"
+                 HeightRequest="50"  
+                 WidthRequest="50"
+                 CornerRadius = "20"
+                 x:Name="btnCompras"
+                 Clicked="btnCompras_Clicked"
+                 BackgroundColor="#F5F5F8"/>
+
+            <Button
+                 Grid.Column="2"
+                 ImageSource="icon3"
+                 HeightRequest="50" 
+                 WidthRequest="50"
+                 CornerRadius = "20"
+                 x:Name="btnPerfil"
+                 Clicked="btnPerfil_Clicked"
+                 BackgroundColor="#F5F5F8"/>
+        </Grid>
+
+
+    </VerticalStackLayout>
+</ContentPage>
